@@ -337,6 +337,7 @@ img {
 
 .destionation-list{
   margin: 0;
+  margin-bottom: 232px;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -349,6 +350,40 @@ img {
   border-radius: 8px;
 }
 
+.download{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 260px;
+  background-image: url("../img/illustration-3/illustration-3.png");
+  background-position: calc(50% + 350px);
+  background-size: auto 542px;
+  background-repeat: no-repeat;
+}
+
+.download-wrapper{
+  width: 481px;
+}
+
+.download-heading{
+  font-family: "Playfair Display", "Arial", sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+  width: 450px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.download-text{
+  font-family: "Mulish", "Arial", sans-serif;
+  margin: 0;
+  margin-bottom: 33px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+}
 
 
 
