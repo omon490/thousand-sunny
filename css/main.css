@@ -265,7 +265,7 @@ img {
 .explore{
   padding-top: 150px;
   padding-bottom: 150px;
-  margin-bottom: 260px;
+  margin-bottom: 170px;
   background-image: url("../img/illustration-2/illustration-2.png");
   background-position: calc(50% - 350px);
   background-size: auto 534px;
@@ -337,7 +337,7 @@ img {
 
 .destionation-list{
   margin: 0;
-  margin-bottom: 232px;
+  margin-bottom: 150px;
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -353,7 +353,7 @@ img {
 .download{
   padding-top: 150px;
   padding-bottom: 150px;
-  margin-bottom: 260px;
+  margin-bottom: 98px;
   background-image: url("../img/illustration-3/illustration-3.png");
   background-position: calc(50% + 350px);
   background-size: auto 542px;
