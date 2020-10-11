@@ -258,8 +258,15 @@ img {
   font-weight: bold;
   font-size: 17px;
   color: #fff;
+  border: 3px solid transparent;
   border-radius: 8px;
   background: #FB8F1D;
+}
+
+.intro-link:hover{
+  background-color: #fff;
+  color: #FB8F1D;
+  border: 3px solid #FB8F1D;
 }
 
 .explore{
