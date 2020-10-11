@@ -1,0 +1,348 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/inter-v2-latin-regular.woff2") format("woff2"),
+       url("../fonts/inter-v2-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/inter-v2-latin-500.woff2") format("woff2"),
+       url("../fonts/inter-v2-latin-500.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/inter-v2-latin-600.woff2") format("woff2"),
+       url("../fonts/inter-v2-latin-600.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/inter-v2-latin-700.woff2") format("woff2"),
+       url("../fonts/inter-v2-latin-700.woff") format("woff");
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/mulish-v1-latin-300.woff2") format("woff2"),
+       url("../fonts/mulish-v1-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/mulish-v1-latin-regular.woff2") format("woff2"),
+       url("../fonts/mulish-v1-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/mulish-v1-latin-700.woff2") format("woff2"),
+       url("../fonts/mulish-v1-latin-700.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/playfair-display-v21-latin-regular.woff2") format("woff2"),
+       url("../fonts/playfair-display-v21-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/playfair-display-v21-latin-700.woff2") format("woff2"),
+       url("../fonts/playfair-display-v21-latin-700.woff") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", "Mulish", "Playfair Display", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1260px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 72px;
+}
+
+.navbar-link{
+  display: block;
+  margin-right: 515px;
+}
+
+.site-logo{
+  display: block;
+}
+
+.nav-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-item{
+  margin: 0;
+  margin-right: 34px;
+}
+
+.nav-item-link{
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B8BECD;
+}
+
+.nav-item-active{
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-link{
+  text-decoration: none;
+  padding: 8px 25px;
+  border: 2px solid #FB8F1D;
+  color: #FB8F1D;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.nav-link-orange{
+  color: #fff;
+  margin-left: 18px;
+  background-color: #FB8F1D;
+}
+
+.intro-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 200px;
+  background-image: url("../img/illustration-1/illustration-1.png");
+  background-position: calc(50% + 350px);
+  background-size: auto 654px;
+  background-repeat: no-repeat;
+}
+
+.intro-heading{
+  margin: 0;
+  margin-bottom: 74px;
+  width: 530px;
+  display: flex;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-weight: 700;
+  color: #202336;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.intro-heading::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("../img/plus/plus.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.intro-text{
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #202336;
+}
+
+.intro-devider{
+  width: 32px;
+  height: 2px;
+  margin-left: 0;
+  background-color: #000;
+  margin-bottom: 48px;
+}
+
+.select-wrapper{
+  width: 471px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.select{
+  width: 220px;
+  border-radius: 6px;
+  padding: 21px 31px;
+  margin-right: 30px;
+  margin-bottom: 35px;
+  border: 0.8px solid #AFB0B9;
+}
+
+.select:nth-child(2n){
+  margin-right: 0;
+}
+
+.intro-link{
+  display: inline-block;
+  padding: 10px 60px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 8px;
+  background: #FB8F1D;
+}
+
+.explore{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../img/illustration-2/illustration-2.png");
+  background-position: calc(50% - 350px);
+  background-size: auto 534px;
+  background-repeat: no-repeat;
+}
+
+.explore-wrapper{
+  width: 481px;
+  margin-left: auto;
+}
+
+.explore-heading{
+  font-family: "Playfair Display", "Arial", sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.explore-text{
+  font-family: "Mulish", "Arial", sans-serif;
+  width: 450px;
+  margin: 0;
+  margin-bottom: 33px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #7D7987;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+}
+
