@@ -468,6 +468,16 @@ img {
   margin-bottom: 56px;
 }
 
+.for-plus-wrapper::before{
+  content: "";
+  height: 20px;
+  display: block;
+  background-image: url("../img/plus/plus.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 150px);
+  background-size: contain;
+}
+
 .stories-heading-wrapper{
   font-family: "Playfair Display", "Arial", sans-serif;
   margin: 0;
@@ -480,6 +490,7 @@ img {
 .stories-list{
   padding: 0;
   margin: 0;
+  margin-bottom: 250px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -550,7 +561,66 @@ img {
   color: #FB8F1D;
 }
 
+.site-footer{
+  padding-top: 70px;
+  padding-bottom: 77px;
+  background-color: #F9F9FB;
+}
 
+.footer-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side{
+  width: 391px;
+  margin-right: 108px;
+}
+
+.left-side-text{
+  font-family: "Mulish", "Arial", sans-serif;
+  margin: 0;
+  margin-top: 48px;
+  margin-bottom: 55px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #848484;
+}
+
+.footer-destination-list{
+  padding: 0;
+  margin: 0;
+  margin-right: 50px;
+  margin-top: -60px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-destination-heading{
+  font-family: "Mulish", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.footer-destination-item{
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.footer-destination-link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
 
 
 
