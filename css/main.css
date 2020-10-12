@@ -460,6 +460,95 @@ img {
   color: rgba(0, 0, 0, 0.85);
 }
 
+.stories-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.stories-heading-wrapper{
+  font-family: "Playfair Display", "Arial", sans-serif;
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.stories-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stories-item{
+  width: 266px;
+  border-radius: 6px;
+}
+
+.stories-title-wrapper{
+  background-color: #fff;
+}
+
+.stories-title{
+  margin: 0;
+  margin-bottom: 13px;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.stories-title::before{
+  content: "";
+  margin: 0;
+  width: 261px;
+  height: 244px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto auto;
+}
+
+.yoga::before{
+  background-image: url("../img/yoga/yoga.png");
+}
+
+.japanese-food::before{
+  border-radius: 6px;
+  background-image: url("../img/japanese-food/japanese-food.png");
+}
+
+.yucatan::before{
+  background-image: url("../img/yucatan/yucatan.png");
+}
+
+.surf::before{
+  background-image: url("../img/surf/surf.png");
+}
+
+.stories-text{
+  margin: 0;
+  margin-bottom: 23px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #7D7987;
+}
+
+.stories-item-link{
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #FB8F1D;
+}
 
 
 
